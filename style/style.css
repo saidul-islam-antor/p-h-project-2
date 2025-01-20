@@ -146,6 +146,10 @@ main{
 .cards img{
     margin-top: 40px;
 }
+.card-1 >img{
+    margin-top: 30px;
+}
+
 .card-container{
     background-image: url(../assets/bg.png);
     background-repeat: no-repeat;
@@ -155,7 +159,7 @@ main{
     text-align: center;
     font-size: 2.88rem;
     line-height: 58px;
-    margin-bottom: 80px;
+    margin-bottom: 72px;
 }
 
 
@@ -176,6 +180,7 @@ main{
     font-weight: 500;
     margin-bottom: 38px;
 }
+
 .card1-btn{
     border: none;
     font-size: 0.87rem;
@@ -209,8 +214,8 @@ border-radius: 18.86px;
 
 box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
 background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
-height: 477px;
-max-width: 367px;
+/* height: 477px; */
+/* max-width: 367px; */
 padding: 20px 40px;
 text-align: center;
 align-items: center;
@@ -224,8 +229,8 @@ border-radius: 18.86px;
 
 box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
 background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
-height: 477px;
-max-width: 367px;
+/* height: 477px; */
+/* max-width: 367px; */
 padding: 20px 40px;
 text-align: center;
 align-items: center;
@@ -240,8 +245,8 @@ border-radius: 18.86px;
 
 box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
 background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
-height: 477px;
-max-width: 367px;
+/* height: 477px; */
+/* max-width: 367px; */
 padding: 20px 40px;
 align-items: center;
 text-align: center;
