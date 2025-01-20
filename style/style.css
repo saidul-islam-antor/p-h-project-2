@@ -76,7 +76,7 @@ nav ul li{
     font-size: 1.25rem;
     font-weight: 600;
     border-radius: 12px;
-    padding: 10px 10px;
+    padding: 10px 20px;
     width: 197px;
     height: 50px;
     text-align: center;
@@ -92,6 +92,44 @@ nav ul li{
  a:hover{
     color: indianred;
  }
+/* hero kids section start */
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.hero-title{
+    font-size: 3.5rem;
+    line-height: 61px;
+    margin-bottom: 24px;
+}
+.empowering{
+    color: orange;
+}
+.vision{
+    color: skyblue;
+}
+.hero-description{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.hero-btn{
+    color: #ffffff;
+    background-color: black;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 12px;
+    padding: 10px 20px;
+    width: 197px;
+    height: 50px;
+    text-align: center;
+
+}
+
 
  /* responsive desing start  */
 @media screen and (max-width:576px) {
@@ -116,5 +154,17 @@ nav ul li{
        
        background-color: orange;
        height: 0.5px;
+    }
+
+    .hero-section{
+        flex-direction: column-reverse;
+        padding: 0px 20px 0px 20px;
+     
+    }
+    .hero-content{
+        text-align: center;
+    }
+    .hero-section img{
+        width: 100%;
     }
 }
