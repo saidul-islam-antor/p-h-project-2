@@ -269,6 +269,8 @@ justify-content: center;
     text-align: center;
    
 }
+
+
 .left-icon{
     margin-bottom: 60px;
     
@@ -292,6 +294,15 @@ justify-content: center;
     font-size: 2.25rem;
     text-align: center;
     padding: 10px;
+}
+
+.left-icon:hover{
+    background-color: #05D4DF;
+    cursor: pointer;
+}
+.right-icon:hover{
+    background-color: #05D4DF;
+    cursor: pointer;
 }
  
 /* our story style start */
@@ -331,9 +342,10 @@ justify-content: center;
         padding: 60px 0px 60px 0px;
         
         gap: 18px;
+    
         
+    } 
       
-    }
     .our-box-container{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -412,7 +424,7 @@ justify-content: center;
         
          bottom: 22px;
         left: 38px; 
-        
+       
     }
 .our-card-btn3{
     font-size: 0.87rem;
