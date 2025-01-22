@@ -307,9 +307,10 @@ justify-content: center;
  
 /* our story style start */
 .bg-img2{
-    background-image: url(../assets/bg.png);
-    background-repeat: no-repeat;
-    background-position: top;
+   background-image: url(../assets/bg.png);
+background-repeat: no-repeat;
+background-position: bottom;
+   
     background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
     padding-bottom: 40px;
     
@@ -318,11 +319,11 @@ justify-content: center;
    
 }
 .our-story-section{
-    /* background-image: url(../assets/bg.png);
+     /* background-image: url(../assets/bg.png);
     background-repeat: no-repeat;
-    background-position: top;
-    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
-     */
+    background-position: bottom; */
+    /* background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+      */
      max-width: 1140px;
      margin: 0 auto;
     
@@ -483,6 +484,66 @@ justify-content: center;
     padding: 5px 40px;
 }
 
+/* footer desing start */
+
+.footer-container{
+    display: flex;
+    color: white;
+    background-color: rgba(1, 172, 253, 1);
+     
+}
+.footer-content{
+    flex: 1;
+    margin: 123px 120px 174px 140px;
+}
+.footer-content-container{
+    display: flex;
+    gap: 11px;
+    margin-bottom: 35px;
+
+}
+.footer-content-container img{
+  
+
+
+}
+.footer-pic{
+    
+    
+}
+.footer-title1{
+    font-size: 2.63rem;
+    
+}
+.footer-description{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: auto;
+
+    
+}
+.footer-title-2{
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+    line-height: 26px;
+}
+.footer-title-3{
+    font-size: 1.75rem;
+    margin-bottom: 32px;
+   line-height: 26px;
+}
+.footer-content ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.footer-content ul li a {
+    color: white;
+    font-weight: 500;
+    
+}
+.social-links img{
+   margin: 0px 5px;
+}
 
  /* responsive desing start  */
 @media screen and (max-width:576px) {
@@ -543,4 +604,34 @@ justify-content: center;
     .our-box-container{
         padding: 10px;
     }
+
+    .our-card-btn2{
+       position: relative;
+       left: 18px; 
+    }
+    .our-card-btn3{
+        position: relative;
+        left: 18px; 
+     }
+     .our-card-btn4{
+        position: relative;
+        left: 18px; 
+     }
+     .our-card-btn5{
+        position: relative;
+        left: 18px; 
+     }
+    .footer-container{
+        flex-direction: column;
+      
+    }
+    .footer-content{
+        margin: 0 auto;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    .footer-content-container{
+        margin-top: 60px;
+    }
+
 }
